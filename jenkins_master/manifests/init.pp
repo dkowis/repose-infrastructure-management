@@ -245,4 +245,9 @@ class jenkins_master {
     plugin {'http://updates.jenkins-ci.org/download/plugins/veracode-scanner/1.4/veracode-scanner.hpi':
         file    => 'veracode-scanner.hpi',
     }
+
+    #simple-theme-plugin
+    plugin {'https://updates.jenkins-ci.org/download/plugins/simple-theme-plugin/0.3/simple-theme-plugin.hpi':
+      file => 'simple-theme-plugin.hpi',
+    }
 }
